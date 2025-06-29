@@ -1,0 +1,132 @@
+  body {
+            background-color: #f8f9fa;
+        }
+        .navbar-top {
+            background-color: black;
+            color: white;
+            padding: 5px 0;
+            font-size: 0.9em;
+            text-align: center;
+
+
+            
+        }
+        .navbar-top a {
+            color: white;
+            text-decoration: underline;
+            font-weight: bold;
+            padding-right:  10rem;
+        }
+        .navbar-main {
+            background-color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,.08);
+        }
+        .form-section {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 500px;
+            margin: auto; /* Center the form in its column */
+        }
+        .btn-create-account {
+            background-color: #dc3545; /* Reddish color from image */
+            border-color: #dc3545;
+            color: white;
+        }
+        .btn-create-account:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+        .btn-google-signup {
+            border: 1px solid #ced4da;
+            color: #495057;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-google-signup img {
+            margin-right: 10px;
+            width: 20px;
+        }
+        .image-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background-color: #e0f2f7; /* Light blue background from image */
+            border-radius: 8px;
+            overflow: hidden; /* Ensure image doesn't overflow */
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Remove extra space below image */
+        }
+        .container-fluid.main-content {
+            padding-top: 50px;
+             padding-bottom: 50px;
+        }
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer h3,
+footer h4 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+footer .subscribe-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+footer .subscribe-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+footer .subscribe-form button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .QR img {
+    width: 100px;
+    height: 100px;
+}
+
+footer .loggo_bar img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}

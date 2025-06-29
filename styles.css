@@ -1,0 +1,83 @@
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer h3,
+footer h4 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+footer .subscribe-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+footer .subscribe-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+footer .subscribe-form button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .QR img {
+    width: 100px;
+    height: 100px;
+}
+
+footer .loggo_bar img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.product-image {
+  width: 100%;               /* ทำให้ภาพเต็มความกว้างของ container */
+  height: auto;              
+  border-radius: 8px;      
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  object-fit: cover;      
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icons img{
+    padding: 10px;
+}
